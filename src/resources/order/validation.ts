@@ -1,0 +1,5 @@
+import Joi from 'joi';
+
+const create = Joi.object({});
+
+export default { create };

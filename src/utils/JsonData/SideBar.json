@@ -1,0 +1,32 @@
+{
+    "category" : {
+        "path" :"/category",
+        "logo" :"https://openboxkoncepts.s3.ap-south-1.amazonaws.com/sideIcon/category.png",
+        "role" : ["ceo","superAdmin","admin","approver","Requester","Sub-admin","maneger","salesUser"]
+    },
+    "product" : {
+        "path" :"/product",
+        "logo" :"https://openboxkoncepts.s3.ap-south-1.amazonaws.com/sideIcon/product.png",
+        "role" : ["ceo","superAdmin","admin","approver","Requester","Sub-admin","maneger","salesUser"]
+    },
+    "order" : {
+        "path" :"/order",
+        "logo" :"https://openboxkoncepts.s3.ap-south-1.amazonaws.com/sideIcon/order.png",
+        "role" : ["ceo","superAdmin","vendor","admin","approver","Requester","Sub-admin","maneger","salesUser"]
+    },
+    "sales" : {
+        "path" :"/salesuser",
+        "logo" :"https://openboxkoncepts.s3.ap-south-1.amazonaws.com/sideIcon/user.png",
+        "role" : ["ceo","superAdmin","admin","approver","Requester","Sub-admin","maneger"]
+    },
+    "company" : {
+        "path" :"/companylist",
+        "logo" : "https://openboxkoncepts.s3.ap-south-1.amazonaws.com/sideIcon/company.png",
+        "role" : ["ceo","superAdmin","admin","approver","Requester","Sub-admin","maneger","salesUser"]
+    },
+    "vendor" : {
+        "path" :"/vendorForm",
+        "logo" : "https://openboxkoncepts.s3.ap-south-1.amazonaws.com/sideIcon/company.png",
+        "role" : ["ceo","superAdmin","admin","approver","Requester","Sub-admin","maneger"]
+    }
+}

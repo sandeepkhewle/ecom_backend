@@ -1,0 +1,1566 @@
+{
+    "businessOwners": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "superAdmin": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "marketingUser": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "productUser": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "designUser": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "procurementUser": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "channelManager": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "logisticPartner": {
+        "page": [
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "channelPartner": {
+        "page": [
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "relationshipManager": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+    "vendor": {
+        "page": [
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "salesUser": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "admin": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "approver": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "Requester": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+    "Sub-admin": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    },
+
+    "sales-user": {
+        "page": [
+            {
+                "path": "/product/all",
+                "method": "GET"
+            },
+            {
+                "path": "/product/all/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/product",
+                "method": "POST"
+            },
+            {
+                "path": "/product/:id",
+                "method": "GET"
+            },
+            {
+                "path": "/company/create",
+                "method": "POST"
+            },
+            {
+                "path": "/company/editCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/addCompanyAddresss",
+                "method": "POST"
+            },
+            {
+                "path": "/company/documents",
+                "method": "POST"
+            },
+            {
+                "path": "/company/update",
+                "method": "POST"
+            },
+            {
+                "path": "/company/:companyId",
+                "method": "GET"
+            },
+            {
+                "path": "/company",
+                "method": "GET"
+            },
+            {
+                "path": "/user/fetchcompanyAdmin",
+                "method": "GET"
+            },
+            {
+                "path": "/user/allUser",
+                "method": "GET"
+            },
+            {
+                "path": "/user/:userId",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/create",
+                "method": "POST"
+            },
+            {
+                "path": "/order/update",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/fetch",
+                "method": "GET"
+            },
+            {
+                "path": "/order/fetchOne/:orderId",
+                "method": "GET"
+            },
+            {
+                "path": "/order/approval",
+                "method": "PATCH"
+            },
+            {
+                "path": "/order/changeorderstatus",
+                "method": "PATCH"
+            },
+            {
+                "path": "/salesUser/create",
+                "method": "POST"
+            },
+            {
+                "path": "/salesUser/fetchsingleuser",
+                "method": "GET"
+            },
+            {
+                "path": "/salesUser/fetchVendorList",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/list",
+                "method": "GET"
+            },
+            {
+                "path": "/structure/filters",
+                "method": "GET"
+            }
+        ]
+    }
+}

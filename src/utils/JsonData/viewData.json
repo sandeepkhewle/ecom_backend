@@ -1,0 +1,500 @@
+{
+  "stockHistory": {
+    "index": 0,
+    "name": "stockHistory",
+    "page": "stockHistory",
+    "attributes": [
+      {
+        "label": "product",
+        "key": "productName"
+      },
+      {
+        "label": "quantity",
+        "key": "quantity"
+      },
+      {
+        "label": "type",
+        "key": "type"
+      },
+      {
+        "label": "note",
+        "key": "note"
+      },
+      {
+        "label": "createdAt",
+        "key": "createdAt"
+      }
+    ]
+  },
+  "paymentHistory": {
+    "index": 0,
+    "name": "paymentSystem",
+    "page": "paymentSystem",
+    "attributes": [
+      {
+        "label": "createdAt",
+        "key": "createdAt"
+      },
+      {
+        "label": "amount",
+        "key": "amount"
+      },
+      {
+        "label": "newCredit",
+        "key": "newCredit"
+      },
+      {
+        "label": "paymentClearingDate",
+        "key": "paymentClearingDate"
+      },
+      {
+        "label": "paymentType",
+        "key": "paymentType"
+      },
+      {
+        "label": "paymentByName",
+        "key": "paymentByName"
+      }
+    ]
+  },
+  "orders": {
+    "index": 0,
+    "name": "Orders",
+    "page": "orders",
+    "attributes": [
+      {
+        "label": "Order No",
+        "key": "orderNo"
+      },
+      {
+        "label": "Total Price",
+        "key": "total"
+      },
+      {
+        "label": "created At",
+        "key": "createdAt"
+      },
+      {
+        "label": "Approval Status",
+        "key": "approvalStatus"
+      },
+      {
+        "label": "ORDER BY",
+        "key": "orderedByName"
+      }
+    ]
+  },
+  "particularUserOrder": {
+    "index": 0,
+    "name": "Orders",
+    "page": "orders",
+    "attributes": [
+      {
+        "label": "Order No",
+        "key": "orderNo"
+      },
+      {
+        "label": "Total Price",
+        "key": "total"
+      },
+      {
+        "label": "created At",
+        "key": "createdAt"
+      },
+      {
+        "label": "Approval Status",
+        "key": "approvalStatus"
+      },
+      {
+        "label": "ORDER BY",
+        "key": "orderedByName"
+      }
+    ]
+  },
+  "orderApproval": {
+    "index": 0,
+    "name": "particularUserOrder",
+    "page": "particularUserOrder",
+    "attributes": [
+      {
+        "label": "Total Price",
+        "key": "total"
+      },
+      {
+        "label": "INVOICE DATE",
+        "key": "createdAt"
+      },
+      {
+        "label": "ORDER STATUS",
+        "key": "orderStatus"
+      },
+      {
+        "label": "ORDER BY",
+        "key": "orderedByName"
+      },
+      {
+        "label": "APPROVAL STATUS",
+        "key": "approvalStatus"
+      }
+    ]
+  },
+  "ordersForSalesUser": {
+    "index": 0,
+    "name": "Orders",
+    "page": "orders",
+    "attributes": [
+      {
+        "label": "Order No",
+        "key": "orderNo"
+      },
+      {
+        "label": "Invoice Date",
+        "key": "createdAt"
+      },
+      {
+        "label": "total",
+        "key": "total"
+      },
+      {
+        "label": "Ordered By Name",
+        "key": "orderedByName"
+      },
+      {
+        "label": "Expected date of delivery",
+        "key": "expectedDateOfDelivery"
+      },
+      {
+        "label": "Order Status",
+        "key": "orderStatus"
+      }
+    ]
+  },
+  "consumerOrder": {
+    "index": 0,
+    "name": "Orders",
+    "page": "orders",
+    "attributes": [
+      {
+        "label": "Order No",
+        "key": "orderNo"
+      },
+      {
+        "label": "Total Price",
+        "key": "total"
+      },
+      {
+        "label": "created At",
+        "key": "createdAt"
+      },
+      {
+        "label": "Approval Status",
+        "key": "approvalStatus"
+      },
+      {
+        "label": "ORDER BY",
+        "key": "orderedByName"
+      }
+    ]
+  },
+  "companyUser": {
+    "index": 0,
+    "name": "companyUser",
+    "page": "companyUser",
+    "attributes": [
+      {
+        "label": "First Name",
+        "key": "firstName"
+      },
+      {
+        "label": "Last Name",
+        "key": "lastName"
+      },
+      {
+        "label": "Email ID",
+        "key": "emailId"
+      },
+      {
+        "label": "Mobile No",
+        "key": "phoneNo"
+      },
+      {
+        "label": "Role",
+        "key": "role"
+      },
+      {
+        "label": "nameOfReportingTo",
+        "key": "nameOfReportingTo"
+      }
+    ]
+  },
+  "salesUser": {
+    "index": 0,
+    "name": "salesUser",
+    "page": "salesUser",
+    "attributes": [
+      {
+        "label": "First Name",
+        "key": "firstName"
+      },
+      {
+        "label": "Last Name",
+        "key": "lastName"
+      },
+      {
+        "label": "Mobile No",
+        "key": "mobile"
+      },
+      {
+        "label": "Status",
+        "key": "status"
+      },
+      {
+        "label": "Role",
+        "key": "role"
+      }
+    ]
+  },
+  "vendor": {
+    "index": 0,
+    "name": "vendor",
+    "page": "vendor",
+    "attributes": [
+      {
+        "label": "First Name",
+        "key": "firstName"
+      },
+      {
+        "label": "Last Name",
+        "key": "lastName"
+      },
+      {
+        "label": "Mobile No",
+        "key": "mobile"
+      },
+      {
+        "label": "Status",
+        "key": "status"
+      },
+      {
+        "label": "GST Number",
+        "key": "gstNumber"
+      },
+      {
+        "label": "Email ID",
+        "key": "emailId"
+      }
+    ]
+  },
+  "companylist": {
+    "index": 0,
+    "name": "companylist",
+    "page": "companylist",
+    "attributes": [
+      {
+        "label": "Name",
+        "key": "name"
+      },
+      {
+        "label": "Email ID",
+        "key": "emailId"
+      },
+      {
+        "label": "Mobile No",
+        "key": "phoneNo"
+      },
+      {
+        "label": "GST Number",
+        "key": "gstNumber"
+      },
+      {
+        "label": "Total Employe",
+        "key": "lastEmployeNo"
+      },
+      {
+        "label": "Total Order",
+        "key": "lastOrderNo"
+      },
+      {
+        "label": "Total Invoice",
+        "key": "lastInvoiceNo"
+      }
+    ]
+  },
+  "billslist": {
+    "index": 0,
+    "name": "billslist",
+    "page": "billslist",
+    "attributes": [
+      {
+        "label": "create Date ",
+        "key": "createDate"
+      },
+      {
+        "label": "Invoice No",
+        "key": "invoiceNo"
+      },
+
+      {
+        "label": "Total Amount",
+        "key": "total"
+      },
+      {
+        "label": "Paid Amount",
+        "key": "paidAmount"
+      },
+
+      {
+        "label": "Payment Status",
+        "key": "paymentStatus"
+      },
+      {
+        "label": "Company Name",
+        "key": "companyName"
+      },
+      {
+        "label": "Link",
+        "key": "link"
+      }
+    ]
+  },
+  "category": {
+    "index": 0,
+    "name": "category",
+    "page": "category",
+    "attributes": [
+      {
+        "label": "category",
+        "key": "category"
+      },
+      {
+        "label": "categoryImage",
+        "key": "categoryImage"
+      },
+      {
+        "label": "description",
+        "key": "description"
+      }
+    ]
+  },
+  "products": {
+    "index": 0,
+    "name": "product",
+    "page": "product",
+    "attributes": [
+      {
+        "label": "productName",
+        "key": "productName"
+      },
+      {
+        "label": "Stock",
+        "key": "stock"
+      },
+      {
+        "label": "productMainImage",
+        "key": "productMainImage"
+      },
+      {
+        "label": "sellPrice",
+        "key": "sellPrice"
+      },
+      {
+        "label": "productCatogery",
+        "key": "productCatogery"
+      },
+      {
+        "label": "productInfo",
+        "key": "productInfo"
+      },
+      {
+        "label": "productDesc",
+        "key": "productDesc"
+      },
+      {
+        "label": "productSize",
+        "key": "productSize"
+      },
+      {
+        "label": "createdBy",
+        "key": "createdBy"
+      },
+      {
+        "label": "updatedBy",
+        "key": "updatedBy"
+      },
+      {
+        "label": "company_id",
+        "key": "company_id"
+      }
+    ]
+  },
+  "companyMapProducts": {
+    "index": 0,
+    "name": "product",
+    "page": "product",
+    "attributes": [
+      {
+        "label": "productName",
+        "key": "productName"
+      },
+      {
+        "label": "productMainImage",
+        "key": "productMainImage"
+      },
+      {
+        "label": "sellPrice",
+        "key": "sellPrice"
+      },
+      {
+        "label": "decidedPrice",
+        "key": "decidedPrice"
+      },
+      {
+        "label": "productCatogery",
+        "key": "productCatogery"
+      },
+      {
+        "label": "createdBy",
+        "key": "createdBy"
+      },
+      {
+        "label": "updatedBy",
+        "key": "updatedBy"
+      }
+    ]
+  },
+  "template": {
+    "index": 0,
+    "name": "template",
+    "page": "template",
+    "attributes": [
+      {
+        "label": "tamplateName",
+        "key": "tamplateName"
+      },
+      {
+        "label": "productMainImage",
+        "key": "productMainImage"
+      },
+      {
+        "label": "sellPrice",
+        "key": "sellPrice"
+      },
+      {
+        "label": "decidedPrice",
+        "key": "decidedPrice"
+      },
+      {
+        "label": "productCatogery",
+        "key": "productCatogery"
+      },
+      {
+        "label": "createdBy",
+        "key": "createdBy"
+      },
+      {
+        "label": "updatedBy",
+        "key": "updatedBy"
+      }
+    ]
+  }
+}

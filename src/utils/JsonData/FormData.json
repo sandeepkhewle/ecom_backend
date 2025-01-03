@@ -1,0 +1,603 @@
+{
+    "vendor": {
+        "formName": "Vendor Registration Form",
+        "buttonName": "Sign Up",
+        "submitButton": {
+            "name": "submit",
+            "path": "/salesUser/create",
+            "redirect": "#",
+            "method": "post"
+        },
+        "cancelButton": {
+            "name": "cancel",
+            "path": "",
+            "redirect": "",
+            "method": "post"
+        },
+        "form": [
+            {
+                "fieldName": "Full Name",
+                "model": "fullname",
+                "fieldType": "text",
+                "type": "input",
+                "id": "validationCustom01",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "required"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Phone Number",
+                "model": "mobile",
+                "fieldType": "number",
+                "type": "input",
+                "id": "validationCustom02",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "pattern",
+                        "value": "^((\\+91-?)|0)?[0-9]{10}$"
+                    }
+                ]
+            },
+            {
+                "fieldName": "status",
+                "model": "status",
+                "fieldType": "dropdown",
+                "type": "select",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [
+                    "Active",
+                    "InAcive"
+                ],
+                "required": false,
+                "validator": [
+                    {
+                        "validation": "required"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Gender",
+                "model": "gender",
+                "fieldType": "dropdown",
+                "type": "select",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [
+                    "Male",
+                    "Female",
+                    "Others"
+                ],
+                "required": false,
+                "validator": [
+                    {
+                        "validation": "required"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Email",
+                "model": "emailId",
+                "fieldType": "email",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "email"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Date Of Joining",
+                "model": "dateOfJoining",
+                "fieldType": "date",
+                "type": "input",
+                "id": "validationCustom04",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "required"
+                    }
+                ]
+            }
+        ]
+    },
+    "vendorLink": {
+        "formName": "vendor link Registration Form",
+        "buttonName": "Sign Up",
+        "apiPath": "/v1/corp/a/addEmployee",
+        "form": [
+            {
+                "fieldName": "Email",
+                "model": "emailId",
+                "contentOf": "Personal Information",
+                "fieldType": "email",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom01",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "email"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Password",
+                "model": "password",
+                "contentOf": "Personal Information",
+                "fieldType": "password",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom02",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "password"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Company Name",
+                "model": "companyName",
+                "contentOf": "Vendor Information",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "companyName"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Company email",
+                "model": "companyEmailId",
+                "contentOf": "Vendor Information",
+                "fieldType": "email",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom04",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "email"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Address",
+                "model": "address",
+                "contentOf": "Vendor Information",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom05",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "address"
+                    }
+                ]
+            },
+            {
+                "fieldName": "website",
+                "model": "website",
+                "contentOf": "Vendor Information",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom06",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "website"
+                    }
+                ]
+            },
+            {
+                "fieldName": "GST Number",
+                "model": "gstNumber",
+                "contentOf": "Vendor Information",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom07",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "gstNumber"
+                    }
+                ]
+            },
+            {
+                "fieldName": "PAN Number",
+                "model": "panNumber",
+                "contentOf": "Vendor Information",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom08",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "panNumber"
+                    }
+                ]
+            }
+        ]
+    },
+    "categoryEdit": {
+        "formName": "categoryEdit Form",
+        "buttonName": "Update",
+        "apiPath": "/category/update",
+        "submitButton": {
+            "name": "update",
+            "path": "/category/update",
+            "redirect": "#",
+            "method": "patch"
+        },
+        "removeButton": {
+            "name": "remove",
+            "path": "/category/remove",
+            "redirect": "",
+            "method": "delete"
+        },
+        "form": [
+            {
+                "fieldName": "category",
+                "model": "category",
+                "contentOf": "category Information",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom01",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "category"
+                    }
+                ]
+            },
+            {
+                "fieldName": "categoryImage",
+                "model": "categoryImage",
+                "contentOf": "Personal Information",
+                "fieldType": "file",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom02",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "password"
+                    }
+                ]
+            },
+            {
+                "fieldName": "description",
+                "model": "description",
+                "contentOf": "description Information",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "companyName"
+                    }
+                ]
+            }
+        ]
+    },
+    "logIn": {
+        "formName": "logIn Form",
+        "buttonName": "logIn",
+        "apiPath": "/login",
+        "submitButton": {
+            "name": "logIn",
+            "path": "/login",
+            "redirect": "#",
+            "method": "post"
+        },
+        "form": [
+            {
+                "fieldName": "Email",
+                "model": "emailId",
+                "fieldType": "email",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "email"
+                    }
+                ]
+            },
+            {
+                "fieldName": "password",
+                "model": "password",
+                "contentOf": "password",
+                "fieldType": "password",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom02",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "password"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Role",
+                "model": "role",
+                "contentOf": "role",
+                "fieldType": "",
+                "default": "",
+                "type": "select",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": ["admin","salesUser","vendor"],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "role"
+                    }
+                ]
+            }
+        ]
+    },
+    "companyRegister": {
+        "formName": "company register Form",
+        "buttonName": "Register",
+        "apiPath": "/create",
+        "submitButton": {
+            "name": "Register",
+            "path": "/create",
+            "redirect": "#",
+            "method": "post" 
+        },
+        "form": [
+            {
+                "fieldName": "name",
+                "model": "name",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "name"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Phone Number",
+                "model": "phoneNo",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "phoneNo"
+                    }
+                ]
+            },
+            {
+                "fieldName": "Email",
+                "model": "emailId",
+                "fieldType": "email",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "email"
+                    }
+                ]
+            },
+            {
+                "fieldName": "password",
+                "model": "password",
+                "contentOf": "password",
+                "fieldType": "password",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom02",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "password"
+                    }
+                ]
+            },
+            {
+                "fieldName": "address",
+                "model": "address",
+                "contentOf": "address",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "address"
+                    }
+                ]
+            },
+            {
+                "fieldName": "city",
+                "model": "city",
+                "contentOf": "city",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "city"
+                    }
+                ]
+            },
+            {
+                "fieldName": "locality",
+                "model": "locality",
+                "contentOf": "locality",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "locality"
+                    }
+                ]
+            },
+            {
+                "fieldName": "state",
+                "model": "state",
+                "contentOf": "state",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "state"
+                    }
+                ]
+            },
+            {
+                "fieldName": "pincode",
+                "model": "pincode",
+                "contentOf": "pincode",
+                "fieldType": "text",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "pincode"
+                    }
+                ]
+            },
+            {
+                "fieldName": "logo",
+                "model": "file",
+                "contentOf": "file",
+                "fieldType": "file",
+                "default": "",
+                "type": "input",
+                "id": "validationCustom03",
+                "fieldClass": "col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4",
+                "style": "",
+                "options": [],
+                "required": true,
+                "validator": [
+                    {
+                        "validation": "file"
+                    }
+                ]
+            }
+        ]
+    }
+}

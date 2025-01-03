@@ -1,0 +1,831 @@
+{
+    "orders": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "ORDER STATUS",
+            "model": "orderStatus",
+            "multiple": true,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "Paid",
+                    "label": "paid",
+                    "value": "paid"
+                },
+                {
+                    "name": "Partial Paid",
+                    "label": "partial",
+                    "value": "partial"
+                },
+                {
+                    "name": "Pending",
+                    "label": "pending",
+                    "value": "pending"
+                }
+            ]
+        },
+        {
+            "name": "Start Date",
+            "model": "createdAtStartDate",
+            "type": "date",
+            "min": "",
+            "max": ""
+        },
+        {
+            "name": "End Date",
+            "model": "createdAtEndDate",
+            "type": "date",
+            "min": "createdAt",
+            "max": ""
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "asc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "desc"
+                }
+            ]
+        }
+    ],
+    "paymentHistory": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "asc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "desc"
+                }
+            ]
+        }
+    ],
+    "orderApproval": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "ORDER STATUS",
+            "model": "orderStatus",
+            "multiple": true,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "Paid",
+                    "label": "paid",
+                    "value": "paid"
+                },
+                {
+                    "name": "Partial Paid",
+                    "label": "partial",
+                    "value": "partial"
+                },
+                {
+                    "name": "Pending",
+                    "label": "pending",
+                    "value": "pending"
+                }
+            ]
+        },
+        {
+            "name": "Start Date",
+            "model": "createdAtStartDate",
+            "type": "date",
+            "min": "",
+            "max": ""
+        },
+        {
+            "name": "End Date",
+            "model": "createdAtEndDate",
+            "type": "date",
+            "min": "createdAt",
+            "max": ""
+        }
+    ],
+    "ordersForSalesUser": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "ORDER STATUS",
+            "model": "orderStatus",
+            "multiple": true,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "Paid",
+                    "label": "paid",
+                    "value": "paid"
+                },
+                {
+                    "name": "Partial Paid",
+                    "label": "partial",
+                    "value": "partial"
+                },
+                {
+                    "name": "Pending",
+                    "label": "pending",
+                    "value": "pending"
+                }
+            ]
+        },
+        {
+            "name": "Start Date",
+            "model": "createdAtStartDate",
+            "type": "date",
+            "min": "",
+            "max": ""
+        },
+        {
+            "name": "End Date",
+            "model": "createdAtEndDate",
+            "type": "date",
+            "min": "createdAt",
+            "max": ""
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "desc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "asc"
+                }
+            ]
+        }
+    ],
+    "salesUser": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "Status",
+            "model": "status",
+            "multiple": true,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "Active",
+                    "label": "Active",
+                    "value": "Active"
+                },
+                {
+                    "name": "In Active",
+                    "label": "In Active",
+                    "value": "inActive"
+                }
+            ]
+        },
+        {
+            "name": "role",
+            "model": "role",
+            "multiple": true,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "superAdmin",
+                    "label": "superAdmin",
+                    "value": "superAdmin"
+                },
+                {
+                    "name": "admin",
+                    "label": "admin",
+                    "value": "admin"
+                }
+            ]
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "desc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "asc"
+                }
+            ]
+        }
+    ],
+    "vendor": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "Status",
+            "model": "status",
+            "multiple": true,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "Active",
+                    "label": "Active",
+                    "value": "Active"
+                },
+                {
+                    "name": "In Active",
+                    "label": "In Active",
+                    "value": "inActive"
+                }
+            ]
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "desc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "asc"
+                }
+            ]
+        }
+    ],
+    "companyUser": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "role",
+            "model": "role",
+            "multiple": true,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "Requester",
+                    "label": "Requester",
+                    "value": "Requester"
+                },
+                {
+                    "name": "approver",
+                    "label": "approver",
+                    "value": "approver"
+                },
+                {
+                    "name": "admin",
+                    "label": "admin",
+                    "value": "admin"
+                }
+            ]
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "desc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "asc"
+                }
+            ]
+        }
+    ],
+    "companylist": [
+        {
+            "name": "Page Length",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "10",
+                    "label": "10",
+                    "value": 10
+                },
+                {
+                    "name": "20",
+                    "label": "20",
+                    "value": 20
+                },
+                {
+                    "name": "50",
+                    "label": "50",
+                    "value": 50
+                },
+                {
+                    "label": "100",
+                    "name": "100",
+                    "value": 100
+                },
+                {
+                    "label": "200",
+                    "name": "200",
+                    "value": 200
+                },
+                {
+                    "label": "500",
+                    "name": "500",
+                    "value": 500
+                }
+            ]
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "desc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "asc"
+                }
+            ]
+        }
+    ],
+    "billslist": [
+        {
+            "name": "select month",
+            "model": "month",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "month",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "January",
+                    "label": "January",
+                    "value": 0
+                },
+                {
+                    "name": "February",
+                    "label": "February",
+                    "value": 1
+                },
+                {
+                    "name": "March",
+                    "label": "March",
+                    "value": 2
+                },
+                {
+                    "label": "April",
+                    "name": "April",
+                    "value": 3
+                },
+                {
+                    "label": "May",
+                    "name": "May",
+                    "value": 4
+                },
+                {
+                    "label": "June",
+                    "name": "June",
+                    "value": 5
+                },
+                {
+                    "label": "July",
+                    "name": "July",
+                    "value": 6
+                },
+                {
+                    "label": "August",
+                    "name": "August",
+                    "value": 7
+                },
+                {
+                    "label": "September",
+                    "name": "September",
+                    "value": 8
+                },
+                {
+                    "label": "October",
+                    "name": "October",
+                    "value": 9
+                },
+                {
+                    "label": "November",
+                    "name": "November",
+                    "value": 10
+                },
+                {
+                    "label": "December",
+                    "name": "December",
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "Sort",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": [
+                {
+                    "name": "newest",
+                    "label": "newest",
+                    "value": "desc"
+                },
+                {
+                    "name": "oldest",
+                    "label": "oldest",
+                    "value": "asc"
+                }
+            ]
+        },
+        {
+            "name": "Client names",
+            "model": "limit",
+            "multiple": false,
+            "display": "name",
+            "value": "value",
+            "type": "select",
+            "method": "dummy",
+            "service": "dummy",
+            "options": []
+        }
+    ]
+}
