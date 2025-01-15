@@ -18,6 +18,7 @@ class App {
     public express: Application;
     public port: number;
     public securePort: number;
+    public url : string|any = process.env.URL;
 
     constructor(controllers: Controller[], port: number, securePort: number) {
         this.express = express()
@@ -40,9 +41,7 @@ class App {
         this.express.use(helmet())
         const corsOptions = {
             origin: [
-                "http://localhost:3000",
-                "https://www.themixxo.com",
-                "https://themixxo.com"],
+                "http://localhost:3000", this.url],
             optionsSuccessStatus: 200, // For legacy browser support,
             credentials: true,
         };
