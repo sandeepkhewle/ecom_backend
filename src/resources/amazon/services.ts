@@ -102,11 +102,11 @@ class AmazonService {
             if (body.current_status_id === 20) {
                 let emailObj = {
                     toAddress: order?.emailId,
-                    ccAddress: process.env.mixxoMail,
+                    ccAddress: process.env.ecomMail,
                     text: `Your Shipment current status is ${body?.current_status}`,
                     html: "",
                     Subject: "Order Status",
-                    replyToAddress: process.env.mixxoMail,
+                    replyToAddress: process.env.ecomMail,
                     sendFile: false,
                 }
                 await this.emailService.sendMail(emailObj?.toAddress,emailObj?.ccAddress,emailObj?.text,emailObj?.html,emailObj?.Subject,emailObj?.replyToAddress,emailObj?.sendFile)

@@ -36,7 +36,7 @@ class awsService {
           if (err) reject(err);
           else {
             const params = {
-              Bucket: "themixxo", // pass your bucket name
+              Bucket: "4ibiz-ecom", // pass your bucket name
               Key: `/${awsFolder}/${fileName}`, // get filename from file
               Body: file,
             };
@@ -63,7 +63,7 @@ class awsService {
           if (err) reject(err);
           else {
             const params = {
-              Bucket: "themixxo/uploads", // pass your bucket name
+              Bucket: "4ibiz-ecom/uploads", // pass your bucket name
               Key: `${fileName}`,
               Body: file,  
             };
