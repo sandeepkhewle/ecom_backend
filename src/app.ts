@@ -18,7 +18,7 @@ class App {
     public express: Application;
     public port: number;
     public securePort: number;
-    public url : string|any = process.env.URL;
+    public url: string | any = process.env.URL;
 
     constructor(controllers: Controller[], port: number, securePort: number) {
         this.express = express()
@@ -106,7 +106,7 @@ class App {
                 })
             }
         } catch (error) {
-            console.log("Error crating https connection");
+            console.log(error, "Error crating https connection");
         }
 
     }
