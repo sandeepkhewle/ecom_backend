@@ -43,7 +43,7 @@ class App {
 
         const corsOptions = {
             origin: [
-                "http://localhost:3000", this.url],
+                "http://localhost:3000", "https://www.ecom.colorzweb.com", "https://ecom.colorzweb.com", this.url],
             optionsSuccessStatus: 200, // For legacy browser support,
             credentials: true,
         };
