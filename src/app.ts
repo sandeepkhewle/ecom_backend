@@ -53,9 +53,9 @@ class App {
         this.express.set('view engine', 'ejs');
         console.log(`**** Middleware set successfully ****`);
         //api.openboxkoncepts.com
-        this.express.use('/.well-known/acme-challenge/gBW34L59zyk04IPBMvhdAflPrHCaT7rqxAnUso0GbMs', (req, res) => {
+        this.express.use('/.well-known/acme-challenge/x_SLgcRJUgUxgasfxnnGdS9yMoEZAUZlmavcefcPjss', (req, res) => {
             try {
-                res.send("gBW34L59zyk04IPBMvhdAflPrHCaT7rqxAnUso0GbMs.gum74qTwfGtyW8gq05zQUG6ctaqdmc8TePWGrS1j1tg")
+                res.send("x_SLgcRJUgUxgasfxnnGdS9yMoEZAUZlmavcefcPjss.5AMUXR7QSFE3WjrcuI5CEuc2VeLgpcbqq5G0Q4iVGGg")
             } catch (error) {
                 console.log('error', error);
             }
