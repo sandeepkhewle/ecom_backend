@@ -39,6 +39,8 @@ class App {
         // this.express.use(express.json({ limit: '50mb' }));
         // this.express.use(express.urlencoded({ limit: '50mb', extended: true, parameterLimit: 100000 }));
         this.express.use(helmet())
+        console.log("corsOptions -url", this.url);
+
         const corsOptions = {
             origin: [
                 "http://localhost:3000", this.url],
