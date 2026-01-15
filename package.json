@@ -82,7 +82,9 @@
   "devDependencies": {
     "@types/node-cron": "^3.0.11",
     "@types/nodemailer": "^6.4.16",
+    "cross-env": "^10.1.0",
     "swagger-ui-express": "^5.0.1",
-    "tsc": "^2.0.4"
+    "tsc": "^2.0.4",
+    "tsc-alias": "^1.8.16"
   }
 }
