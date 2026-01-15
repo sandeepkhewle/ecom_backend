@@ -88,8 +88,7 @@ class App {
 
     public listen(): void {
         try {
-            if (process.env.NODE_ENV === 'production') {
-
+            if (process.env.NODE_ENV === 'staging') {
 
                 // Certificate
                 const privateKey = fs.readFileSync('/etc/letsencrypt/live/ecom-api.colorzweb.com/privkey.pem', 'utf8');
