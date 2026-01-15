@@ -18,11 +18,13 @@ class App {
     public express: Application;
     public port: number;
     public securePort: number;
+    public host: string;
     public url: string | any = process.env.URL;
 
     constructor(controllers: Controller[], port: number, securePort: number) {
         this.express = express()
         this.port = port;
+        this.host = '127.0.0.1'
         this.securePort = securePort;
 
         this.initMiddleware();
@@ -99,11 +101,11 @@ class App {
                     cert: certificate,
                     ca: ca
                 };
-                https.createServer(credentials, this.express).listen(this.securePort, () => {
+                https.createServer(credentials, this.express).listen(this.securePort, this.host, () => {
                     console.log(`**** App listening on https secure port ${this.securePort} ****`);
                 })
             } else {
-                this.express.listen(this.port, () => {
+                this.express.listen(this.port, this.host, () => {
                     console.log(`**** App listening http on port ${this.port} ****`);
                 })
             }
