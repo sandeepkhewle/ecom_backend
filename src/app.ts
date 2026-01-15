@@ -103,6 +103,10 @@ class App {
                 https.createServer(credentials, this.express).listen(this.securePort, this.host, () => {
                     console.log(`**** App listening on https secure port ${this.securePort} ****`);
                 })
+
+                this.express.listen(this.port, this.host, () => {
+                    console.log(`**** App listening http on port ${this.port} ****`);
+                })
             } else {
                 this.express.listen(this.port, this.host, () => {
                     console.log(`**** App listening http on port ${this.port} ****`);
