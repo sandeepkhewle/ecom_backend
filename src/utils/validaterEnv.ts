@@ -3,7 +3,7 @@ import { cleanEnv, str, port } from 'envalid';
 function vaildateEnv(): void {
     cleanEnv(process.env, {
         NODE_ENV: str({
-            choices: ['development', 'production']
+            choices: ['development', 'production', 'staging']
         }),
         MONGO_PATH: str(),
         PORT: str({ default: '3008' }),
