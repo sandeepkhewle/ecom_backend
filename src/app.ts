@@ -12,6 +12,7 @@ import test from './test/index';
 import bodyParser from 'body-parser';
 import fs from 'fs';
 import https from 'https';
+import http from 'http';
 import ejs from 'ejs';
 
 class App {
@@ -108,7 +109,9 @@ class App {
                     console.log(`**** App listening http on port ${this.port} ****`);
                 })
             } else {
-                this.express.listen(this.port, this.host, () => {
+                const httpServer = http.createServer(this.express);
+
+                httpServer.listen(this.port, this.host, () => {
                     console.log(`**** App listening http on port ${this.port} ****`);
                 })
             }
